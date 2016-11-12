@@ -1,5 +1,5 @@
 <?php
-    $var_dump($modx->event->name);
+    var_dump($modx->event->name);
     $ctx = $modx->context->get('key');
     $isAuthenticated = $modx->user->hasSessionContext($ctx);
     var_dump($isAuthenticated);

@@ -14,11 +14,10 @@
         [[*content]]
 			</section>
 			<aside>
-        <a href="[[++manager_url]]" title="Your MODX manager" class="cta-button">Go to the&nbsp;manager</a>
-        <h3>Learn more about&nbsp;MODX</h3>
-        <ul>
-        </ul>
-
+                <a href="[[++manager_url]]" title="Your MODX manager" class="cta-button">Go to the&nbsp;manager</a>
+                <h3>Learn more about&nbsp;MODX</h3>
+                <ul>
+                </ul>
 			</aside>
 		</div>
 

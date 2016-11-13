@@ -16,6 +16,6 @@
             die();
         }
     } else {
-        var_dump($modx->resource);
+        var_dump($modx->getRequest);
         die();
     }

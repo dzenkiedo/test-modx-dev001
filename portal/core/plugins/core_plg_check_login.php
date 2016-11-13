@@ -6,11 +6,16 @@
     $user = $modx->user;
     $username = $user->get("username");
 //    var_dump($modx->user->get("username"));
-    if($username != "(anonymous)") {
+    if ($isAuthenticated) {
+        if($username != "(anonymous)") {
 //        $modx->sendRedirect($modx->makeUrl(8));
-        var_dump($username);
-        die();
+            var_dump($username);
+            die();
+        } else {
+            var_dump($username);
+            die();
+        }
     } else {
-        var_dump($username);
+        var_dump($modx->resource->get("id"));
         die();
     }

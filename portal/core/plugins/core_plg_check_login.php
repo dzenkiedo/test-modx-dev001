@@ -10,6 +10,6 @@
         $modx->sendRedirect($modx->makeUrl(8));
 
     } else {
-        var_dump($username)
+        var_dump($username);
     }
     die();

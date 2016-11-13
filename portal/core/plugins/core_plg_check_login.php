@@ -2,7 +2,7 @@
     var_dump($modx->event->name);
     $ctx = $modx->context->get('key');
     $isAuthenticated = $modx->user->hasSessionContext($ctx);
-    var_dump($isAuthenticated);
+    var_dump($isAuthenticated);die();
     $user = $modx->user;
     $username = $user->get("username");
     var_dump($modx->user->get("username"));

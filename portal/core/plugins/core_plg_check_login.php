@@ -16,7 +16,6 @@
             die();
         }
     } else {
-        echo '123';
         var_dump($modx->resource->get("id"));
         die();
     }

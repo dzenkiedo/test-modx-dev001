@@ -8,6 +8,7 @@
 //    var_dump($modx->user->get("username"));
     if($username != "(anonymous)") {
         $modx->sendRedirect($modx->makeUrl(8));
+
     } else {
         var_dump($username)
     }

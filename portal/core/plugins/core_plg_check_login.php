@@ -5,7 +5,7 @@
     var_dump($isAuthenticated);
     $user = $modx->user;
     $username = $user->get("username");
-//    var_dump($modx->user->get("username"));
+    var_dump($modx->user->get("username"));
     if ($isAuthenticated) {
         if($username != "(anonymous)") {
 //        $modx->sendRedirect($modx->makeUrl(8));

@@ -16,6 +16,6 @@
             die();
         }
     } else {
-        var_dump($modx->getRequest());
+        var_dump($modx->getRequest('modRequest', 'agent-manager/admin-login/'));
         die();
     }

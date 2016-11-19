@@ -10,12 +10,12 @@
         if($username != "(anonymous)") {
 //        $modx->sendRedirect($modx->makeUrl(8));
             var_dump($username);
+            var_dump($modx->user);
             die();
         } else {
             var_dump($username);
             die();
         }
     } else {
-        var_dump($modx->getRequest('modRequest', 'agent-manager/admin-login/'));
         die();
     }
